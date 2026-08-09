@@ -1,0 +1,7 @@
+checkpoints/
+__pycache__/
+*.pyc
+demonstrations.pkl
+*.pkl
+training_logs*.csv
+evaluation_report.json

@@ -6,7 +6,7 @@ from framestack import FrameStackWrapper
 from perception import CNNAttentionExtractor
 from phase3 import SACActor
 
-checkpoint_path = "checkpoints/checkpoint_v6_final_749999.pt"  # adjust to your exact 750k filename
+checkpoint_path = "checkpoints/checkpoint_v7_final_999999.pt"  # adjust to your exact 750k filename
 NUM_EPISODES = 10
 NAV_SCALE = 0.1
 MAX_STEPS_PER_EPISODE = 2000
@@ -107,7 +107,7 @@ summary = {
     "episodes": episode_reports,
 }
 
-with open("evaluation_report.json", "w") as f:
+with open("evaluation_report_v7.json", "w") as f:
     json.dump(summary, f, indent=2)
 
 print("\n" + "=" * 60)

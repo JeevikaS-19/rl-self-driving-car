@@ -6,7 +6,7 @@ from perception import CNNAttentionExtractor
 from phase3 import SACActor
 
 # Load target checkpoint (e.g. 99999 or any saved step)
-checkpoint_path = "checkpoints/checkpoint_v6_final_749999.pt"
+checkpoint_path = "checkpoints/checkpoint_v7_final_1249999.pt"
 print(f"Loading checkpoint from: {checkpoint_path}")
 try:
     checkpoint = torch.load(checkpoint_path, map_location=torch.device('cpu'))
